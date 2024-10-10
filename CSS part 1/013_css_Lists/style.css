@@ -1,0 +1,23 @@
+/*ul{
+  list-style-type: disc;
+  list-style-type: square;
+  list-style-type: upper-roman;
+  list-style-type: decimal-leading-zero;
+
+  list-style-image: url(hand.png) ;
+
+  list-style-position:inside;
+  list-style-position:outside;
+  
+}
+*/
+ul {
+  background: tomato;
+  padding: 25px;
+  list-style-position: inside;
+}
+li {
+  background: violet;
+  padding: 5px;
+  border-bottom: 1px solid tomato;
+}

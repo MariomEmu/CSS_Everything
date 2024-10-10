@@ -1,0 +1,39 @@
+table,th,td{
+  border: 1px solid #16453e;
+  border-collapse: collapse;
+  padding: 5px 10px;
+ 
+}
+table{
+  width: 50%;
+}
+
+th{
+  background:#16453e;
+  height:50px;
+  text-align: left;
+  color:aliceblue;
+  
+}
+
+td{
+  background: #eaef2c;
+    border: 1px solid #16453e;
+    color:#fff;
+    height:35px;
+    vertical-align: center;
+}
+
+
+tr:hover th,
+tr:hover td
+{
+  background: #5a228b;
+}
+
+div{
+  width: 450px;
+  overflow: hidden;
+  overflow-x:auto ;
+  overflow-y: scroll;
+}
